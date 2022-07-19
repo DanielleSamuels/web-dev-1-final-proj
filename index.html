@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <!-- TODO: Replace this with your title -->
+    <title>Danielle Samuels</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<!-- 	
+    TODO: Add Bootstrap CSS link tag from: 
+    	https://getbootstrap.com/docs/5.1/getting-started/introduction 
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"   rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+  <!-- TODO: Paste Navbar code and customize links --> 
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+          <a href="#hero-section" class="navbar-brand"><i class="bi bi-house"></i></a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto">
+                  <a href="#mission-section" class="nav-item nav-link">Mission</a>
+                  <a href="#skills-section" class="nav-item nav-link">Skills</a>
+                  <a href="#inspiration-section" class="nav-item nav-link">Inspiration</a>
+                  <a href="#contact-section" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+      </div>
+    </nav>
+    
+
+
+  <!-- Hero section -->
+	<section id="hero-section">
+    <div class="hero-img">
+      <div class="title-overlay">
+        <span class="headshot"><img src="img/JRP_9167%20(2).jpg" alt="Headshot"></span>
+        <span class="title"><h1>Danielle Samuels</h1></span>
+        <span class="subtitle"><h3>An Aspiring Developer</h3></span>
+      </div>
+    </div>
+	</section>
+  
+	<!-- Mission/Meet-me section -->
+  <section id="mission-section">
+
+    <h1>My Mission</h1>
+  
+    <div class="container-fluid container-lg">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 ">
+          <img src="img/2018_05_22%2016-39-36.jpg" alt="">
+        </div>
+        <div class="col-md-6 mb-4">
+          <p> Ever since I was young, I have always enjoyed puzzles, math, and computers. When I was a junior in high school, I had the opportunity to take AP Computer Science and fell in love. I loved the aspect of creating something that could be used to improve and simplify the daily lives of others. In December, I will graduate from the University of North Texas with a Bachelor of Science in Computer Science. Following graduation, I hope to get a job where I can code and create. </p>
+        </div>
+      </div>
+    </div>
+
+    
+	</section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <h1>Skills</h1>
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+             
+                  <img alt="AltText" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="img-responsive">
+              <p>Building Object-Oriented Programs using C++</p>
+              </div>
+      
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              
+                  <img  alt="AltText" src="https://cdn.iconscout.com/icon/free/png-256/java-60-1174953.png" class="img-responsive">
+                <p>Building Object-Oriented Programs using Java</p>
+              
+              </div>
+      
+              <div class="col-md-3 col-sm-6 col-xs-12">
+              
+                 <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="AltText" class="img-responsive">
+                 <p>Creating websites using HTML</p>
+              </div>
+      
+              <div class="col-md-3 col-sm-6 col-xs-12">
+             
+                  <img alt="AltText" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" class="img-responsive">
+                  <p>Beautifying those websites using CSS</p>
+              </div>
+          </div>
+     </div>
+	</section>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section">
+    <h1>Inspiration</h1>
+    <h3>Women in Computing</h3>
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Ada-Lovelace-first-computer-programmer_650x433_crop_center%20(2).jpg" class="d-block w-100" alt="Ada Lovelace">
+        <div class="carousel-caption d-md-block">
+          <h5>"The more I study, the more insatiable do I feel my genius for it to be."</h5>
+          <p>Ada Lovelace</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.incimages.com/uploaded_files/image/1920x1080/GettyImages-50336184_115567.jpg" class="d-block w-100" alt="Grace Hopper">
+        <div class="carousel-caption d-md-block">
+          <h5>"A ship in port is safe, but that’s not what ships are built for."</h5>
+          <p>Grace Hopper</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/75579-Margret-Hamilton-email%20(2).jpg" class="d-block w-100" alt="Margaret Hamilton">
+        <div class="carousel-caption d-md-block">
+          <h5>"Software eventually and necessarily gained the same respect as any other discipline."</h5>
+          <p>Margaret Hamilton</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <h1>Contact</h1>
+    <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+          <a href="https://www.linkedin.com/in/danielle-samuels-a51b26155/">
+            <h1><i class="bi bi-linkedin"></i></h1>
+          </a>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 col-xs-12">
+          <a href="https://github.com/DanielleSamuels">
+              <h1><i class="bi bi-github"></i></h1>
+          </a>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 col-xs-12">
+          <a href="mailto: DanielleFSamuels@gmail.com">
+              <h1><i class="bi bi-envelope"></i></h1>
+          </a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+      <h4>&copy; Danielle Samuels</h4>
+  </section>
+
+  <!-- 
+		TODO: Paste Bootstrap Javascript script tag from:
+		https://getbootstrap.com/docs/5.1/getting-started/introduction/
+	-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- TODO: Describe what you did to add SIZZLE below!
+
+
+
+
+
+-->

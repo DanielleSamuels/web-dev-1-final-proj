@@ -1,0 +1,244 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+*{
+  margin: 0;
+  pading: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.schedule .form-group .col-md-6 {
+  padding: 0;
+}
+
+ nav{
+   overflow: hidden;
+  background-color: #67577F;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  
+}
+
+.navbar a {
+  color: #E8E7EC;
+  font-size: 110%;
+}
+
+.navbar i {
+  font-size: 140%;
+}
+
+a:link {
+  color: #E8E7EC;
+  
+}
+
+a:hover{
+  
+}
+
+
+
+.hero-img {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1556244573-c3686c0f0e78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  margin-top: 50px; 
+ 
+}
+
+.title-overlay {
+  text-align: center;
+  padding: 70px 0;
+  color: white;
+  text-shadow: 2px 2px 4px #67577F;
+  font-size: 40px;
+}
+
+#hero-section h1 {
+  font-style: bold;
+  font-size: 115%;
+}
+
+#hero-section h3 {
+  font-style: italic;
+  font-size: 70%;
+}
+
+
+#hero-section img {
+  width: 15%;
+  border-radius: 50%;
+  margin: 3%;
+  
+}
+
+
+
+#mission-section {
+  background-color:  #827693;
+  color: #D0CFD4;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  
+  
+}
+
+#mission-section div {
+  
+}
+
+#mission-section img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#mission-section h1 {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#mission-section p {
+ display: inline-block;
+ vertical-align: middle;
+}
+
+
+
+#inspiration-section {
+  text-align: center;
+  background-color:  #827693;
+  color: #D0CFD4;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#inspiration-section h1 {
+
+}
+
+#inspiration-section h3 {
+  font-style: italic;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-size: 150%;
+  
+}
+
+#inspiration-section h5 {
+  color: white;
+  text-shadow: 2px 2px 4px #67577F;
+}
+
+#inspiration-section p {
+  color: white;
+  text-shadow: 2px 2px 4px #67577F;
+}
+
+.carousel {
+
+ 
+}
+
+.carousel-item:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //width: 100vw;
+ // height: 100vh;
+}
+
+.carousel-item img {
+  
+}
+
+.carousel-item {
+ 
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+
+
+#skills-section {
+  background-color: #BBAAD2;
+  color: #312347;
+  text-align: center;
+  padding: 5%;
+}
+
+#skills-section img {
+  width: 10vw;
+  margin-bottom: 5%;
+}
+
+#skills-section h1 {
+  margin-bottom: 5%;
+}
+
+
+
+#contact-section {
+  text-align: center;
+  background-color:#BBAAD2;
+  padding: 5%;
+  color: #312347;
+}
+
+#contact-section h1 {
+  margin-bottom: 5%;
+}
+
+#contact-section a {
+  color: #312347;
+}
+
+
+
+#footer-section {
+  text-align: center;
+  background-color: #827693;
+  padding: 1%;
+}
+
+/* Desktop Query */
+@media only screen and (min-width: 768px) {
+  #mission-section p {
+    font-size: 160%;
+  }
+  #inspiration-section {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/* Tablet Query */
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  #mission-section p {
+    font-size: 160%;
+  }
+}
+
+/* Mobile Query */
+@media only screen and (max-width:480px) {
+  #mission-section p {
+    font-size: 100%;
+  }
+}
