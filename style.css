@@ -210,7 +210,9 @@ a:hover{
   color: #312347;
 }
 
-
+#contact-section a:hover{
+  color: white;
+}
 
 #footer-section {
   text-align: center;
